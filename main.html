@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+	<link href="http://gmpg.org/xfn/11" rel="profile">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+	<!-- Enable responsiveness on mobile devices-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+
+	<title>Sound Lessons</title>
+<style>
+* { 
+	box-sizing: border-box;
+}
+div {
+	transition:all 4s ease;
+}
+body {
+	display: block;
+/*	background-color: #d9d7d7;*/
+	background-color: #fff;
+	color: black;
+	font-family: -apple-system, Arial;
+	margin: 0;
+}
+
+body > header, body > footer {
+
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	font-size: 1em;
+}
+body > header > div {
+	padding: 1.75rem 0;
+	display: flex;
+}
+body > header > div div {
+	margin: 0;
+	padding: 0;
+	flex-grow: 1;
+	font-size: 1.1em;
+	line-height: 1rem;
+}
+body > header > div nav {
+	line-height: 1rem;
+	font-size: 0.9em;
+}
+body > header > div nav > div {
+	display: inline-block;
+	margin: 0 .7em;
+}
+body > header a:link, 
+body > header a:visited, 
+body > footer a:link, 
+body > footer a:visited {
+	color: #05122e;
+}
+body.main {
+	max-width: 80rem;
+}
+a {
+	text-decoration: none;
+}
+h1 {
+	font-size: 5em;
+	margin:0;
+}
+h2 {
+	margin:0;
+}
+h3 {
+	font-weight: bold;
+	font-size:2.5em;
+	text-align: center;
+}
+img {
+	width:100%;
+}
+
+#topnav {
+	display:flex;
+	align-items: center;
+}
+.logo {
+	display: block;
+	width: 8em;
+}
+
+.btn {
+	padding: 1em  1.5em;
+	outline: none;
+	text-decoration: none;
+	font-size: 1em;
+	transition: all .3s;
+	font-weight: 700;
+	text-align: center;
+}
+
+.btn-custom {
+	color: white;
+	background: #89b7b7;
+	border-radius: 10px;
+
+}
+#header-signup a {
+	color: #fff;
+}
+section {
+	max-width: 80rem;
+	margin-left:auto;
+	margin-right: auto;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#main-block {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 6em 0;
+	align-items: center;
+	justify-content: space-between;
+}
+#main-background {
+	width: 65%;
+}
+#main-desc {
+	width: 30%;
+	margin: 1em;
+}
+.courses {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	width:100%;
+}
+.course {
+	background-color: #e0efef;
+	padding:2em;
+	margin:1em;
+	border-radius: 1em;
+	width:35%;
+}
+.course-name {
+	font-weight: bold;
+	font-size: 1.5em;
+	margin:1.5em 0;
+	text-align: center;
+	min-height: 50px;
+}
+.course-desc {
+	font-size: 1em;
+	padding:1.25em;
+	margin: 1.5em 0;
+	line-height: 1.2em;
+	min-height: 10em;
+}
+.learn-more {
+	margin: 2em 0;
+	color: #03739c;
+	text-transform: uppercase;
+	text-align: center;
+}
+.registration {
+	max-width: 250px;
+	margin:auto;
+}
+.instructor {
+	display:flex;
+	background-color: #e0efef;
+	border-radius: 1em;
+	max-width: 800px;
+	max-height: 500px;
+	margin:auto;
+}
+.pic {
+	border-radius: 1em 0 0 1em;
+	width: 60%;
+	margin: 0;
+	padding: 0;
+}
+.bio {
+	padding: 2em;
+	text-align: left;
+}
+.name {
+	font-weight: bold;
+	font-size:2em;
+	padding: 1em 0;
+}
+.position {
+	padding: 0.5em 0;
+}
+
+.position .title{
+	font-size: 0.75em;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:#03739c;
+}
+footer {
+	font-weight: bold;
+	background-color: #e0efef;
+	margin-top: 3em;
+}
+#copyright {
+	text-align: center;
+	padding: 1em;
+}
+@media (max-width: 350px) {
+#main-block {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 6em 0;
+	align-items: center;
+	justify-content: space-between;
+}
+}
+
+@media (max-width: 670px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+</style>
+</head>
+<body>
+<header>
+	<div id="topnav">
+		<div><a href="#home" class="logo"><img src="/images/soundwave-transparent.png"></a></div>
+		<nav>
+			<div id="header-courses"><a href="#courses">Courses</a></div>
+			<div id="header-about"><a href="#instructors">Intructors</a></div>
+			<div id="header-signup" class="btn btn-custom"><a href="#courses">Sign Up</a></div>
+		</nav>
+	</div>
+</header>
+<main>
+	<section id="home">
+		<div id="main-title">
+			<h1>Sound Lessons</h1>
+			<h2>Music Education for All</h2>
+		</div>
+		<div id="main-block">
+			<div id="main-background">
+				<img src="/images/soundwave-transparent.png">
+			</div>
+			<div id="main-desc">
+				<h2>Top professors from top colleges,<p>teaching fundamentals of music,<p>enabled by MIT engineers,<p>for a fraction of the tuition.</h2>
+			</div>
+		</div>
+	</section>
+	<section id="courses">
+	<h3>Our courses</h3>
+		<div class="courses">
+		<div class="course">
+		<div class="course-name">Building Blocks of Music</div>
+		<div class="course-desc">Designed for the music lover who is eager to enhance their listening experience by developing a vocabulary which will enable them to understand and describe what they are hearing.</div>
+		<div class="learn-more">Learn More ➝</div>
+		<div class="btn btn-custom registration">Get Notified when Registration Opens</div>
+		</div>
+
+		<div class="course">
+		<div class="course-name">Music Theory Level I</div>
+		<div class="course-desc">Designed for anyone who is beginning study of a musical instrument whether as an amateur or as a student pursuing a career in music. This course will enhance your understanding of the language of music with a more detailed study and application of the elements of music.</div>
+		<div class="learn-more">Learn More ➝</div>
+		<div class="btn btn-custom registration">Get Notified when Registration Opens</div>
+		</div>
+
+		<div class="course">
+		<div class="course-name">Music Theory Level II</div>
+		<div class="course-desc">Designed for the student who has a solid understanding of the fundamental concepts covered in Level 1. This level will expand the student’s understanding of the elements of music coupled with an introduction to common compositional techniques.</div>
+		<div class="learn-more">Learn More ➝</div>
+		<div class="btn btn-custom registration">Get Notified when Registration Opens</div>
+		</div>
+
+		<div class="course">
+		<div class="course-name">Music Theory Level III</div>
+		<div class="course-desc">Designed for the student who wishes to further expand their knowledge of more complex uses of the elements of music.</div>
+		<div class="learn-more">Learn More ➝</div>
+		<div class="btn btn-custom registration">Get Notified when Registration Opens</div>
+		</div>
+		</div>
+	</secton>
+	<section>
+		<h3>Meet Your Instructor</h3>
+		<div id="instructors">
+			<div class="instructor">
+			<img class="pic" src="/images/5-6-13-146.jpg">
+			<div class="bio">
+			<div class="name">William Cutter</div>
+			<div class="position"><div class="title">Faculty</div>Massachusetts Institute of Technology (MIT)<p>Boston Conservatory at Berklee</div>
+			<div class="position"><div class="title">Former Assistant Chorus Master</div>Boston Symphony Orchestra</div>
+			<div class="position"><div class="title">Former Chorus Master</div>Boston Lyric Opera</div>
+			</div>
+		</div>
+		</section>
+</main>
+<footer>
+	<div id="copyright">© 2020 Sound Lessons</div>
+</footer>
+</body>
+</html>
