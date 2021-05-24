@@ -83,6 +83,9 @@ img {
 	display:flex;
 	align-items: center;
 }
+.nav-items {
+	margin:0.5em;
+}
 .logo {
 	display: block;
 	width: 8em;
@@ -116,7 +119,9 @@ section {
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
-
+#home {
+	margin:1em;
+}
 #main-block {
 	display: flex;
 	flex-wrap: wrap;
@@ -132,7 +137,6 @@ section {
 }
 #main-desc {
 	width: 30%;
-	margin: 1em;
 }
 .courses {
 	display:flex;
@@ -164,19 +168,22 @@ section {
 .learn-more {
 	margin: 2em 0;
 	color: #03739c;
-	text-transform: uppercase;
+/*	text-transform: uppercase;*/
 	text-align: center;
 }
 .registration {
 	max-width: 250px;
 	margin:auto;
 }
+#instructors {
+	margin: 1em;
+}
 .instructor {
 	display:flex;
+	flex-wrap: wrap;
 	background-color: #e0efef;
 	border-radius: 1em;
-	max-width: 800px;
-	max-height: 500px;
+	max-width: 60%;
 	margin:auto;
 }
 .pic {
@@ -224,7 +231,26 @@ footer {
 }
 
 @media (max-width: 670px) {
-
+	section {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	#main-desc {
+		width: 100%;
+	}
+	.course {
+		width: 100%;
+	}
+	.instructor {
+		max-width:100%;
+		margin:auto;
+	}
+	.pic {
+		width: 100%;
+	}
+	.bio {
+		width: 100%;
+	}
 }
 
 @media (max-width: 768px) {
@@ -238,8 +264,8 @@ footer {
 	<div id="topnav">
 		<div><a href="#home" class="logo"><img src="/images/soundwave-transparent.png"></a></div>
 		<nav>
-			<div id="header-courses"><a href="#courses">Courses</a></div>
-			<div id="header-about"><a href="#instructors">Instructors</a></div>
+			<div class="nav-items" id="header-courses"><a href="#courses">Courses</a></div>
+			<div class="nav-items" id="header-about"><a href="#instructors">Instructors</a></div>
 			<div id="header-signup" class="btn btn-custom"><a href="#courses">Sign Up</a></div>
 		</nav>
 	</div>
@@ -297,10 +323,10 @@ footer {
 			<div class="instructor">
 			<img class="pic" src="/images/5-6-13-146.jpg">
 			<div class="bio">
-			<div class="name">William Cutter</div>
-			<div class="position"><div class="title">Faculty</div>Massachusetts Institute of Technology (MIT)<p>Boston Conservatory at Berklee</div>
-			<div class="position"><div class="title">Former Assistant Chorus Master</div>Boston Symphony Orchestra</div>
-			<div class="position"><div class="title">Former Chorus Master</div>Boston Lyric Opera</div>
+				<div class="name">William Cutter</div>
+				<div class="position"><div class="title">Faculty</div>Massachusetts Institute of Technology (MIT)<p>Boston Conservatory at Berklee</div>
+				<div class="position"><div class="title">Former Assistant Chorus Master</div>Boston Symphony Orchestra</div>
+				<div class="position"><div class="title">Former Chorus Master</div>Boston Lyric Opera</div>
 			</div>
 		</div>
 		</section>
