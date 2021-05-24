@@ -183,18 +183,23 @@ section {
 	flex-wrap: wrap;
 	background-color: #e0efef;
 	border-radius: 1em;
-	max-width: 60%;
+	max-width: 70%;
 	margin:auto;
 }
 .pic {
 	border-radius: 1em 0 0 1em;
-	width: 60%;
+	width: 65%;
 	margin: 0;
 	padding: 0;
+	height: auto;
+}
+.pic img {
+
 }
 .bio {
 	padding: 2em;
 	text-align: left;
+	width:35%;
 }
 .name {
 	font-weight: bold;
@@ -235,13 +240,16 @@ footer {
 		padding-right: 0;
 		padding-left: 0;
 	}
-	#main-background img {
-		margin: auto;
+	#main-block {
+		margin: 0;
+	}
+	#main-background {
 		width: 100%;
 		height: auto;
 	}
 	#main-desc {
 		width: 100%;
+		text-align: center;
 	}
 	.course {
 		width: 100%;
@@ -250,13 +258,18 @@ footer {
 		max-width:100%;
 		margin:auto;
 	}
-	.pic {
+	.instructor img {
 		width: 100%;
 		height:auto;
 		border-radius: 1em 1em 0 0;
 	}
 	.bio {
 		width: 100%;
+	}
+
+	.bio > .name {
+		padding-top: 0;
+		padding-bottom: 0.5em;
 	}
 }
 
@@ -269,7 +282,7 @@ footer {
 <body>
 <header>
 	<div id="topnav">
-		<div><a href="#home" class="logo"><img src="/images/soundwave-transparent.png"></a></div>
+		<div><a href="#home" class="logo"><img src="images/soundwave-transparent.png"></a></div>
 		<nav>
 			<div class="nav-items" id="header-courses"><a href="#courses">Courses</a></div>
 			<div class="nav-items" id="header-about"><a href="#instructors">Instructors</a></div>
@@ -285,7 +298,7 @@ footer {
 		</div>
 		<div id="main-block">
 			<div id="main-background">
-				<img src="/images/soundwave-transparent.png">
+				<img src="images/soundwave-transparent.png">
 			</div>
 			<div id="main-desc">
 				<h2>Top professors from top conservatories,<p>teaching fundamentals of music,<p>enabled by MIT engineers,<p>for a fraction of the tuition.</h2>
@@ -328,12 +341,13 @@ footer {
 		<h3>Meet Your Instructor</h3>
 		<div id="instructors">
 			<div class="instructor">
-			<img class="pic" src="/images/5-6-13-146.jpg">
+			<img class="pic" src="images/5-6-13-146.jpg">
 			<div class="bio">
 				<div class="name">William Cutter</div>
 				<div class="position"><div class="title">Faculty</div>Massachusetts Institute of Technology (MIT)<p>Boston Conservatory at Berklee</div>
 				<div class="position"><div class="title">Former Assistant Chorus Master</div>Boston Symphony Orchestra</div>
 				<div class="position"><div class="title">Former Chorus Master</div>Boston Lyric Opera</div>
+			</div>
 			</div>
 		</div>
 		</section>
