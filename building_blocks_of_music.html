@@ -301,7 +301,7 @@ footer {
 }
 
 .course-title {
-	font-size: 3em;
+	font-size: 2.75em;
 	font-weight: bold;
 }
 
@@ -343,12 +343,28 @@ footer {
 	margin: 1em 0;
 }
 
+.line {
+	display:inline-block;
+}
 .class-tag {
 	font-weight: bold;
 	color:#4F76AF;
+	text-transform: uppercase;
 }
+
 .course-overall{
 	display:flex;
+}
+
+.class-data {
+	margin: 2em 0;
+}
+tr {
+	text-align: left;
+	padding:0 1em;
+}
+th {
+	width: 6em;
 }
 </style>
 </head>
@@ -369,9 +385,24 @@ footer {
 <div class="course-block">
 	<div class="label">Course</div>
 	<div class="course-title">Building Blocks of Music</div>
+	<table class="class-data">
+		<tr>
+		<th><span class="class-tag">Length</span></th>
+		<td>4 weeks</td>
+		</tr>
+		<tr>
+		<th><span class="class-tag">Dates</span></th>
+		<td>September 1 - 31, 2021</td>
+		</tr>
+		<tr>
+		<th><span class="class-tag">Cost</span></th>
+		<td>$250</td>
+		</tr>
+	</table>
+
 	<div class="course-detail">Designed for the music lover who is eager to enhance their listening experience by developing a vocabulary which will enable them to understand and describe what they are hearing.</div>
 	<div class="course-topics">
-		The course will consist of highly engaging videos as well as live lectures with Dr. Cutter.
+		The course will consist of highly engaging videos as well as live lectures.
 		<p></p>
 		In this level you will learn about the Elements of Music:<br><br>
 		<div class="topics">
@@ -382,11 +413,7 @@ footer {
 			<span class="topic">Form</span> common song structures<br><br>
 		</div>
 	</div>
-	<div class="class-info">
-		<span class="class-tag">Length</span> 4 weeks<br>
-		<span class="class-tag">Start Date</span> September 1, 2021<br>
-		<span class="class-tag">Cost</span> $250 <br>
-	</div>
+
 	<div class="btn btn-custom registration"><a href="https://forms.gle/nNLpDYAtwGmyb9FJ6">Sign Up Now</a></div>
 </div>
 <div class="course-instructor">
